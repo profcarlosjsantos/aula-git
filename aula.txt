@@ -1,3 +1,0 @@
-Olá mundo GIT!
-
-E se eu adicionar outras coisas aqui, o que acontece.
