@@ -1,33 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>e-QUIZZ</title>
 </head>
 <body>
-    <form action="POST">
-        <label for="">Nome: </label>
-        <input type="text">
-        <br>
-        <label for="">Gênero: </label>
-            <input type="radio" name="genero" id="Masculino" value="Masculino">
-                <label for="">Masculino</label>
-            <input type="radio" name="genero" id="Feminino" value="Feminino">
-                <label for="">Feminino</label>
-            <input type="radio" name="genero" id="Outro" value="Outro">
-                <label for="">Outro</label>
-        <br>
-        <label for="">Escolaridade</label>
-            <input type="checkbox" name="escolararida" id="Fundamental">
-                <label for="">Fundamental</label>
-            <input type="checkbox" name="escolararida" id="Ensino Médio">
-                <label for="">Ensino Médio</label>
-            <input type="checkbox" name="escolararida" id="Superior">
-                <label for="">Superior</label>
-        <br>
-        <button onclick="alert('Você Clicou')">Clique</button>
-    </form>
+
+    <!--Header-->
+    <div class="header-content">
+        <header>
+            <h1>e-QUIZZ</h1>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Aleatório</a></li>
+                    <li><a href="#">Customizado</a></li>
+                    <li><a href="#">Ranking</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <!--Section-->
+    <div class="content">
+        <h1>e-Quizz</h1>        
+        <div class="grid-content">
+            <div class="grid-item">
+                <a href="#">
+                    <img src="imgs/aleatorio.png" alt="">
+                    <div class="grid-div">
+                        <h3 class="grid-title">Aleatório</h3>
+                        <p class="grid-text">Gera questões aleatórias com todas as áreas.</p>
+                    </div> 
+                </a>
+            </div>            
+            <div class="grid-item">
+                <a href="#">
+                    <img src="imgs/equalizador.png" alt="">
+                    <div class="grid-div">
+                        <h3 class="grid-title">Customizado</h3>
+                        <p class="grid-text">Selecione áreas específicas para as perguntas.</p>
+                    </div> 
+                </a>    
+            </div>
+            <div class="grid-item">
+                <a href="#">
+                    <img src="imgs/ranking.png" alt="">
+                    <div class="grid-div">
+                        <h3 class="grid-title">Ranking</h3>
+                        <p class="grid-text">Saiba quem está detonando nas questões.</p>
+                    </div> 
+                </a>    
+            </div>
+        </div>
+        <div class="content-text">
+            <h4>
+                " Mussum Ipsum, cacilds vidis litro abertis. Diuretics paradis num copo é motivis de denguis. 
+                Quem num gosta di mim que vai caçá sua turmis! Copo furadis é disculpa de bebadis, arcu quam euismod magna. 
+                Quem manda na minha terra sou euzis! "
+            </h4>
+            <h4>MUSSUM IPSUMM</h4>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-left">
+            <div class="footer-item">
+                <img src="imgs/instagram.png" alt="">
+                <a href="">Instagram</a>
+            </div>
+            <div class="footer-item">
+                <img src="imgs/twitter.png" alt="">
+                <a href="">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-item">
+                <img src="imgs/whatsapp.png" alt="">
+                <p>(35) 99999-9999</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
