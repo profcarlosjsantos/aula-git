@@ -178,7 +178,7 @@ footer{
 }
 
 .customizar-form h2{
-    color: #C0A472;
+    color: #ABC510;
     display: flex;
     justify-content: center;
     padding: 1em 0;
@@ -188,7 +188,7 @@ footer{
     color: gray;
     display: flex;
     padding: 0.5em 0 0.5em 0;
-    width: 60%;
+    width: 50%;
     margin-left: 25%;
 }
 
@@ -223,3 +223,69 @@ footer{
     background-color: green;
 }
 
+/*Questao*/
+
+#content_question{
+    height: 155vh;
+}
+
+.question-form{
+    height: 120vh;
+    width: auto;
+    margin: 0 15em;
+    border-radius: 2em;
+    border: 1px solid gray;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.question-form h2{
+    color: #ABC510;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.question-option-item{
+    color: gray;
+    display: flex;
+    padding: 0.5em 0 0.5em 0;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.question-option-item label{
+    padding-left: 1em;
+}
+
+.question-actions{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 0;
+}
+
+.question-actions button{
+    width: 25%;
+    border: 1px solid black;   
+    border-radius: 0.5em;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.6);
+}
+
+.question-box{
+    width: 100%;
+    color: gainsboro;
+}
+
+.question-box label{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 2% 10%;
+}
+
+.question-box img{
+    width: 50%;
+    margin-left: 25%;
+}
